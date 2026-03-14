@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: bot_venyx
+    restart: unless-stopped
+    # Mount folder connection agar session WhatsApp tidak terhapus saat container restart
+    volumes:
+      - ./connection:/app/connection
+    # environment:
+    #   - TZ=Asia/Jakarta # Sesuaikan timezone
