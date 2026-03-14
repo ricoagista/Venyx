@@ -1,7 +1,7 @@
 ﻿{
   "owner": ["62831xxxxxxxx"],
   "coowner": ["62812xxxxxxxx"],
-  "botname": "(Project) -▪︎ Rico-AI",
+  "botname": "(Project) - Rico-AI",
   "botfullname": "Venyx",
   "botnickname": "rico",
   "ownername": "rico",
@@ -39,34 +39,34 @@
     "menu": {
       "frames": {
         "brackets": ["[", "]"],
-        "head": "┌",
-        "body": "│⇨",
-        "foot": "└"
+        "head": "",
+        "body": "",
+        "foot": ""
       },
       "tags": {
-        "ai": "*<🧠Artificial Intelegen>*",
-        "downloader": "*<📥Media Downloader>*",
-        "group": "*<🏢Only Group!>*",
-        "maker": "*<🖨Maker>*",
-        "owner": "*<👤Only owner!>*",
-        "religion": "*<☪️Religion>*",
-        "game": "*<🎮Game>*",
-        "RPG": "*<🗺RPG Survival>*",
-        "tools": "*<🛠Tools>*",
-        "search": "*<🔍Search>*",
-        "art": "*<🌌Art Works>*",
-        "stablediffusion": "*<🫧Stable Diffusion (AI)>*",
-        "tts": "*<🗣Text To Speech (AI)>*",
-        "voice_changer": "*<🎙Voice Changer (AI)>*",
+        "ai": "*<Artificial Intelegen>*",
+        "downloader": "*<Media Downloader>*",
+        "group": "*<Only Group!>*",
+        "maker": "*<Maker>*",
+        "owner": "*<Only owner!>*",
+        "religion": "*<Religion>*",
+        "game": "*<Game>*",
+        "RPG": "*<RPG Survival>*",
+        "tools": "*<Tools>*",
+        "search": "*<Search>*",
+        "art": "*<Art Works>*",
+        "stablediffusion": "*<Stable Diffusion (AI)>*",
+        "tts": "*<Text To Speech (AI)>*",
+        "voice_changer": "*<Voice Changer (AI)>*",
         "other": "*<Others>*",
         "bluearchive": "*<Blue Archive TTS (AI)*",
-        "relationship": "*<💍Relationship>*",
-        "converter": "*<🔀 Converter>*"
+        "relationship": "*<Relationship>*",
+        "converter": "*< Converter>*"
       },
       "chId": {
         "newsletterJid": "120363301254798220@newsletter",
         "serverMessageId": 471,
-        "newsletterName": "Rico ▪︎ Information ✨🌙"
+        "newsletterName": "Rico  Information "
       },
       "video": "https://cdn.ricoagista.my.id/venyx.mp4"
     },
@@ -86,7 +86,7 @@
     "editmsg": true,
     "reactsw": {
       "on": false,
-      "emojis": ["😍", "😂", "😬", "🤢", "🤮", "🥰", "😭"]
+      "emojis": ["", "", "", "", "", "", ""]
     },
     "models": {
       "checkpoint": 1552,
@@ -134,29 +134,29 @@
       "mancing": [
         {
           "nama": "ikan",
-          "icon": "🐟",
+          "icon": "",
           "rate": 50
         }
       ],
       "berburu": [
         {
           "nama": "ayam",
-          "icon": "🐔",
+          "icon": "",
           "rate": 50
         },
         {
           "nama": "sapi",
-          "icon": "🐄",
+          "icon": "",
           "rate": 30
         },
         {
           "nama": "domba",
-          "icon": "🐑",
+          "icon": "",
           "rate": 15
         },
         {
           "nama": "kambing",
-          "icon": "🐑",
+          "icon": "",
           "rate": 5
         }
       ],
@@ -206,4 +206,3 @@
     }
   }
 }
-
