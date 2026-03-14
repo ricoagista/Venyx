@@ -283,6 +283,8 @@ export default class EventEmitter {
           return cht.reply(messages.isNotAvailableOnTrial);
       }
 
+      // Fitur energi dinonaktifkan (unlimited)
+      /* 
       if (ev.energy && !isNaN(ev.energy) && cht.memories.energy < ev.energy) {
         return cht.reply(
           messages.isEnergy({
@@ -292,6 +294,7 @@ export default class EventEmitter {
           })
         );
       }
+      */
 
       if (ev.args || ev.arg) {
         if (ev.arg ? !arg : !args) {
@@ -459,12 +462,16 @@ export default class EventEmitter {
                 */
       }
 
+      // Fitur pengurangan energi dinonaktifkan
+      ev.energy && (await cht.reply(`⏱️Wait...`, { replyAi: false }));
+      /*
       if (ev.energy && ('energy_mode' in cfg ? cfg.energy_mode : true)) {
         await ArchiveMemories.reduceEnergy(cht.sender, ev.energy);
         await cht.reply(`-${ev.energy} Energy⚡`, { replyAi: false });
       } else {
         ev.energy && (await cht.reply(`⏱️Wait...`, { replyAi: false }));
       }
+      */
 
       const resolves = {
         media,
