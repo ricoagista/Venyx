@@ -23,13 +23,13 @@ cd Venyx
 2. Jalankan bot menggunakan Docker Compose:
 
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
 3. Untuk melihat log bot (berguna saat setup nomor / melihat Pairing Code):
 
 ```bash
-docker-compose logs -f
+docker compose logs -f
 ```
 
 ### Cara Menghubungkan ke Nomor WhatsApp
