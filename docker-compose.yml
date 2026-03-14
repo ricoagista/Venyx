@@ -5,6 +5,9 @@ services:
     build: .
     container_name: bot_venyx
     restart: unless-stopped
+    # Penting: TTY & Stdin terbuka agar Node.js readline tidak crash
+    stdin_open: true
+    tty: true
     # Mount folder connection agar session WhatsApp tidak terhapus saat container restart
     volumes:
       - ./connection:/app/connection
